@@ -1,6 +1,6 @@
-# openwrt-xray
+# Tailscale
 
-Xray for OpenWrt
+Tailscale for OpenWrt
 
 ## Build Guide
 
@@ -22,7 +22,7 @@ Start build:
 
 make menuconfig
 
-Network ---> <*> tailscale
+Network ---> <m> tailscale
 
 make package/tailscale/{clean,compile} V=s
 
