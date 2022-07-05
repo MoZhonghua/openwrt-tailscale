@@ -12,9 +12,9 @@ PKG_VERSION:=1.26.1
 PKG_RELEASE:=1
 
 PKG_SOURCE_NAME=tailscale
-PKG_SOURCE:=$(PKG_SOURCE_NAME)-$(PKG_VERSION).tar.gz
+PKG_SOURCE:=v$(PKG_VERSION).tar.gz
 
-PKG_SOURCE_URL:=https://github.com/tailscale/tailscale/archive/refs/tags/v$(PKG_VERSION).tar.gz
+PKG_SOURCE_URL:=https://github.com/tailscale/tailscale/archive/refs/tags/
 PKG_HASH:=69fb95840bd0fc9d2f39300c984db0d504f6af180f839d31b2f26034092077cc
 PKG_BUILD_DIR:=$(BUILD_DIR)/$(PKG_SOURCE_NAME)-$(PKG_VERSION)
 
